@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+.second_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    .us{
+        width: 60%;
+    }
+    .cat{
+        margin-top: 1%;
+        width: 40%;
+    }
+    p{
+        margin-top: 20px;
+        font-family: 'Overpass';
+        font-weight: 500;
+        font-size: 48px;
+        color: #ca9172;
+        border-color: #ffcdb2;
+    }
+}

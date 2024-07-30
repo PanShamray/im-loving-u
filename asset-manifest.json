@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/im-loving-u/static/css/main.ae43e78a.css",
+    "main.js": "/im-loving-u/static/js/main.61736f5f.js",
+    "static/media/us.jpg": "/im-loving-u/static/media/us.6c2870a2dc2a0ae479f2.jpg",
+    "static/media/cat.gif": "/im-loving-u/static/media/cat.a0eab546a5d6fafc556c.gif",
+    "static/media/me.jpg": "/im-loving-u/static/media/me.a5185b4f5efe53427308.jpg",
+    "static/media/yipee.mp3": "/im-loving-u/static/media/yipee.4f145620911ba37b1032.mp3",
+    "index.html": "/im-loving-u/index.html",
+    "main.ae43e78a.css.map": "/im-loving-u/static/css/main.ae43e78a.css.map",
+    "main.61736f5f.js.map": "/im-loving-u/static/js/main.61736f5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae43e78a.css",
+    "static/js/main.61736f5f.js"
+  ]
+}

@@ -6,9 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: 100vh;
 
     img{
-        margin-top: 35%;
         width: 70%;
     }
 
@@ -23,6 +24,7 @@
         justify-content: space-around;
         align-items: center;
         width: 100%;
+        position: relative;
         *:first-child{
                 font-family: 'Caveat', cursive;
                 font-size: 40px;
@@ -38,6 +40,7 @@
             color: #ffcdb2;
             border: none;
             border-radius: 14px;
+            position: relative;
         }
     }
 }

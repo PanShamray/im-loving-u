@@ -1,8 +1,14 @@
 import React from "react";
 import "./style.scss";
+import us from '../images/us.jpg';
 
 function SecondScreen() {
-  return <h6>hi there 2</h6>;
+  return (
+    <>
+      <img src={us} alt=""></img>
+      <p>I love you ❤️‍🔥❤️‍🔥❤️‍🔥</p>
+    </>
+  );
 }
 
 export default SecondScreen;

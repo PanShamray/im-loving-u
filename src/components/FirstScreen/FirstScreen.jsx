@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import SecondScreen from '../SecondScreen/SecondScreen';
+import SecondScreen from '../SecondScreen';
 
 import './style.scss';
-import me from '../images/me.jpg'
+import me from '../../images/me.jpg'
 
 function FirstScreen() {
     const [noButtonStyle, setButtonStyle] = useState({});
@@ -30,11 +30,11 @@ function FirstScreen() {
         ) : (
           <div className="main_wrapper">
             <img src={me} alt=""></img>
-            <p>Am I love her?</p>
+            <p>Чи я кохаюю її?</p>
 
             <div className="buttons_wrapper">
               <button type="submit" onClick={handleLove}>
-                YES
+                Так!
               </button>
               <button
                 type="button"
@@ -42,7 +42,7 @@ function FirstScreen() {
                 onMouseEnter={moveButton}
                 onClick={moveButton}
               >
-                no{"(((((("}
+                ні{"((("}
               </button>
             </div>
           </div>
